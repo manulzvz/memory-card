@@ -1,12 +1,14 @@
 import "./Card.css";
 
-function Card({ image, title, url, onClick }) {
+function Card({ card, onClick }) {
   return (
     <div className="card" onClick={onClick}>
-      <a href={url} target="_blank" rel="noopener noreferrer">
-        <img src={image} alt={title} />
-        <p>{title}</p>
-      </a>
+      <div className="card-image-container">
+        <img src={card.image} alt={card.name} className="card-image" />
+        <div className="card-info">
+          <p className="card-title">{card.name}</p>
+        </div>
+      </div>
     </div>
   );
 }

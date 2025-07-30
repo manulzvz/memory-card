@@ -1,15 +1,14 @@
 import Card from "./Card";
 import "./Board.css";
 
-function Board({ artworks }) {
+function Board({ cards, onCardClick }) {
   return (
     <div className="board">
-      {artworks.map((art, idx) => (
+      {cards.map((card) => (
         <Card
-          key={idx}
-          image={art.primaryImageSmall}
-          title={art.title}
-          url={art.objectURL}
+          key={card.id}
+          card={card}
+          onClick={() => onCardClick(card.id)}
         />
       ))}
     </div>

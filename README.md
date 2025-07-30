@@ -1,12 +1,105 @@
-# React + Vite
+# Amphibia Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based memory card game inspired by the popular animated series Amphibia. Test your memory by clicking on characters without repeating any!
 
-Currently, two official plugins are available:
+## 🎮 How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Click on any character card to start the game
+- Each correct click (new character) gives you 1 point
+- If you click the same character twice, the game ends
+- Try to click all 12 characters to win!
+- Cards shuffle after each click to keep you on your toes
 
-## Expanding the ESLint configuration
+## 🏆 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Score Tracking**: Current score and best score (saved locally)
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Smooth Animations**: Hover effects and card transitions
+- **Local Storage**: Best score persists between sessions
+- **12 Unique Characters**: All main characters from Amphibia
+
+## 🛠️ Tech Stack
+
+- **React 19** with Hooks
+- **Vite** for fast development and building
+- **CSS3** with modern features like backdrop-filter and gradients
+- **ESLint** for code quality
+- **Responsive Design** with CSS Grid and Flexbox
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/manulzvz/memory-card.git
+cd memory-card
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5174`
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## 🎨 Game Characters
+
+The game features 12 beloved characters from Amphibia:
+- Anne Boonchuy
+- Sprig Plantar
+- Polly Plantar
+- Hop Pop Plantar
+- Sasha Waybright
+- Captain Grime
+- Sadie Croaker
+- Leopold Loggle
+- Maddie Flour
+- Sylvia Sundew
+- Mayor Toadstool
+- Wally
+
+## 📱 Responsive Design
+
+The game is fully responsive and adapts to different screen sizes:
+- **Desktop**: 4 columns of cards
+- **Tablet**: 3 columns of cards
+- **Mobile**: 2 columns of cards
+
+## 🎯 Future Enhancements
+
+- [ ] Add difficulty levels (easy/medium/hard)
+- [ ] Sound effects and background music
+- [ ] Character descriptions on hover
+- [ ] Timer mode for speed runs
+- [ ] Leaderboard system
+- [ ] Dark/light theme toggle
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Note**: This is a fan-made game for educational purposes. Amphibia and all related characters are trademarks of Disney.
