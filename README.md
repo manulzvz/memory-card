@@ -1,105 +1,99 @@
-# Amphibia Memory Game
+# 🐸 Amphibia Memory Game - Juego de Memoria con React
 
-A React-based memory card game inspired by the popular animated series Amphibia. Test your memory by clicking on characters without repeating any!
+Juego de cartas tipo memoria inspirado en la serie animada *Amphibia*, desarrollado con React.  
+¡Pon a prueba tu memoria haciendo clic en personajes sin repetir ninguno!
 
-## 🎮 How to Play
+---
 
-- Click on any character card to start the game
-- Each correct click (new character) gives you 1 point
-- If you click the same character twice, the game ends
-- Try to click all 12 characters to win!
-- Cards shuffle after each click to keep you on your toes
+## 🎮 ¿Cómo se juega?
 
-## 🏆 Features
+- Haz clic en cualquier carta para comenzar el juego.
+- Cada clic correcto (personaje nuevo) suma 1 punto.
+- Si haces clic en el mismo personaje dos veces, el juego termina.
+- ¡Gana si logras hacer clic en los 12 personajes sin repetir!
+- Las cartas se reorganizan aleatoriamente después de cada clic.
 
-- **Score Tracking**: Current score and best score (saved locally)
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
-- **Smooth Animations**: Hover effects and card transitions
-- **Local Storage**: Best score persists between sessions
-- **12 Unique Characters**: All main characters from Amphibia
+---
 
-## 🛠️ Tech Stack
+## 🏆 Funcionalidades
 
-- **React 19** with Hooks
-- **Vite** for fast development and building
-- **CSS3** with modern features like backdrop-filter and gradients
-- **ESLint** for code quality
-- **Responsive Design** with CSS Grid and Flexbox
+- **Contador de puntuación**: muestra la puntuación actual y la mejor (guardada localmente).
+- **Diseño responsivo**: adaptable a computadoras, tablets y móviles.
+- **Animaciones suaves**: transiciones y efectos al pasar el mouse.
+- **Persistencia local**: la mejor puntuación se guarda entre sesiones con `localStorage`.
+- **12 personajes únicos**: todos los personajes principales de Amphibia.
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+## ⚙️ Tecnologías utilizadas
 
-### Installation
+- **React 19** con Hooks
+- **Vite** para desarrollo rápido y build optimizado
+- **CSS3** con `backdrop-filter`, gradientes y diseño moderno
+- **ESLint** para mantener calidad del código
+- **CSS Grid & Flexbox** para diseño adaptable
 
-1. Clone the repository:
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+### Requisitos previos
+
+- Node.js v16 o superior
+- npm o yarn
+
+### Instalación
+
+1. Clona el repositorio:
+
 ```bash
 git clone https://github.com/manulzvz/memory-card.git
 cd memory-card
-```
+````
 
-2. Install dependencies:
+2. Instala las dependencias:
+
 ```bash
 npm install
 ```
 
-3. Start the development server:
+3. Inicia el servidor de desarrollo:
+
 ```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5174`
+4. Abre tu navegador en `http://localhost:5174`
 
-### Building for Production
+### Generar build para producción
 
 ```bash
 npm run build
 ```
 
-The built files will be in the `dist` directory.
-
-## 🎨 Game Characters
-
-The game features 12 beloved characters from Amphibia:
-- Anne Boonchuy
-- Sprig Plantar
-- Polly Plantar
-- Hop Pop Plantar
-- Sasha Waybright
-- Captain Grime
-- Sadie Croaker
-- Leopold Loggle
-- Maddie Flour
-- Sylvia Sundew
-- Mayor Toadstool
-- Wally
-
-## 📱 Responsive Design
-
-The game is fully responsive and adapts to different screen sizes:
-- **Desktop**: 4 columns of cards
-- **Tablet**: 3 columns of cards
-- **Mobile**: 2 columns of cards
-
-## 🎯 Future Enhancements
-
-- [ ] Add difficulty levels (easy/medium/hard)
-- [ ] Sound effects and background music
-- [ ] Character descriptions on hover
-- [ ] Timer mode for speed runs
-- [ ] Leaderboard system
-- [ ] Dark/light theme toggle
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+Los archivos compilados estarán en la carpeta `dist`.
 
 ---
 
-**Note**: This is a fan-made game for educational purposes. Amphibia and all related characters are trademarks of Disney.
+## 📱 Diseño Responsivo
+
+La distribución de las cartas se adapta según el dispositivo:
+
+* **Escritorio**: 4 columnas
+* **Tablet**: 3 columnas
+* **Móvil**: 2 columnas
+
+---
+
+## 🤝 ¿Quieres contribuir?
+
+¡Contribuciones bienvenidas! Puedes abrir issues o enviar pull requests.
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de código abierto bajo la [Licencia MIT](LICENSE).
+
+
+
