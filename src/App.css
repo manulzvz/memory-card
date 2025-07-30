@@ -78,21 +78,16 @@ h1 {
 }
 
 .reset-button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: #61dafb;
+  color: #282c34;
   border: none;
-  padding: 12px 30px;
-  font-size: 1.1rem;
-  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 4px;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s;
 }
 
 .reset-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-.reset-button:active {
-  transform: translateY(0);
+  background: #21a9c7;
 }
