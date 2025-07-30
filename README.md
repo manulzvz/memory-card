@@ -1,6 +1,6 @@
-# 🐸 Amphibia Memory Game - Juego de Memoria con React
+# 🚀 Rick & Morty Memory Game - Juego de Memoria con React
 
-Juego de cartas tipo memoria inspirado en la serie animada *Amphibia*, desarrollado con React.  
+Juego de cartas tipo memoria inspirado en la serie animada *Rick & Morty*, desarrollado con React.  
 ¡Pon a prueba tu memoria haciendo clic en personajes sin repetir ninguno!
 
 ---
@@ -21,7 +21,7 @@ Juego de cartas tipo memoria inspirado en la serie animada *Amphibia*, desarroll
 - **Diseño responsivo**: adaptable a computadoras, tablets y móviles.
 - **Animaciones suaves**: transiciones y efectos al pasar el mouse.
 - **Persistencia local**: la mejor puntuación se guarda entre sesiones con `localStorage`.
-- **12 personajes únicos**: todos los personajes principales de Amphibia.
+- **12 personajes únicos**: todos los personajes principales de Rick & Morty.
 
 ---
 
@@ -49,7 +49,7 @@ Juego de cartas tipo memoria inspirado en la serie animada *Amphibia*, desarroll
 ```bash
 git clone https://github.com/manulzvz/memory-card.git
 cd memory-card
-````
+```
 
 2. Instala las dependencias:
 
@@ -94,6 +94,3 @@ La distribución de las cartas se adapta según el dispositivo:
 ## 📄 Licencia
 
 Este proyecto es de código abierto bajo la [Licencia MIT](LICENSE).
-
-
-
